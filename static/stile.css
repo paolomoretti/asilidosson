@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Coming Soon';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Coming Soon'), local('ComingSoon'), url(http://themes.googleusercontent.com/static/fonts/comingsoon/v3/myblyOycMnPMGjfPG-DzP7rIa-7acMAeDBVuclsi6Gc.woff) format('woff');
+}
+
+body { margin: 0; padding: 0; background: #A7D6DB; font: 14px normal 'Coming Soon'; }
+a { color: #fff; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.container { width: 1024px; margin: 0 auto; }
+.logo { text-align: center; margin: 40px 0; }
+h2 { color: #5C58A7; font-size: 25px; margin: 15px 0; }
+.menu {}
+	.menu td { background: url(nuvola.gif) no-repeat center center; width: 132px; height: 52px; text-align: center;  }
+	.menu td a { color: #5C58A7; font-size: 16px; font-weight: 600; }
+	.menu td a:hover { color: #EFBDD8; }
+	.menu td.attivo { background-image: url(nuvolaon.gif); }
+	.menu td.attivo a { color: #fff; }
+
+.contenuto { margin: 40px 20px; }
+	.contenuto p { color: #5C58A7; }
