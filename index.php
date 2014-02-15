@@ -19,5 +19,7 @@
 
 <?php doGoogleAnalytics(); ?>
 
+<!-- Heroku app -->
+
 </body>
 </html>
