@@ -20,4 +20,19 @@ h2 { color: #5C58A7; font-size: 25px; margin: 15px 0; }
 	.menu td.attivo a { color: #fff; }
 
 .contenuto { margin: 40px 20px; }
-	.contenuto p { color: #5C58A7; }
+.contenuto p { color: #5C58A7; }
+.contenuto.foto img {
+	max-width: 600px;
+	display: block;
+	margin: 20px 0;
+}
+.contenuto.foto ul,
+.contenuto.foto ul li {
+	margin: 0;
+	text-align: left;
+	font-size: 120%;
+	color: black;
+}
+.contenuto.foto h2 {
+	margin-top: 60px;
+}
